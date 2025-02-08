@@ -115,23 +115,7 @@ body {
 }
 
 .fundo {
-    background: url(../imagens/fundo-1.jpg);
-}
-
-.fundo-1 {
-    background: url(../imagens/fundo-1.jpg);
-}
-
-.fundo-2 {
-    background: url(../imagens/fundo-1.jpg);
-}
-
-.fundo-3 {
-    background: url(../imagens/fundo-1.jpg);
-}
-
-.fundo-4 {
-    background: url(../imagens/fundo-1.jpg);
+    background: url(../imagens/fundo-carta.jpg);
 }
 
 .btn-seta {
