@@ -1,0 +1,16 @@
+@media(max-width: 768px) {
+    body {
+        background-position: center;
+        padding: 0 15px;
+    }
+}
+
+@media(max-width: 480px) {
+    .start h2 {
+        font-size: 40px;
+    }
+
+    .start button {
+        font-size: 15px;
+    }
+}

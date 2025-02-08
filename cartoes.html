@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="src/css/fontes.css">
+    <link rel="stylesheet" href="src/css/reset.css">
+    <link rel="stylesheet" href="src/css/secundario.css">
+    <link rel="stylesheet" href="src/css/responsivo-secundario.css">
+    <link rel="shortcut icon" type="imagex/ico" href="src/imagens/ae-logo.jpg">
+    <title>æspa - whiplash</title>
+</head>
+
+<body>
+    <header class="cabecalho">
+        <h1 class="titulo"><img src="src/imagens/whiplash-logo.png" alt="whiplash logo"></h1>
+    </header>
+    <main class="slider">
+        <button class="btn-seta btn-voltar" id="btn-voltar">
+            <img src="src/imagens/seta.png" alt="seta voltar">
+        </button>
+
+        <ul class="lista-personagens">
+            <li class="cartao fundo selecionado">
+                <div class="carta-virada"></div>
+                <h2 class="nome">Giselle</h2>
+
+                <div class="nivel-carta">
+                    <span class="estrela"></span>
+                    <span class="estrela"></span>
+                    <span class="estrela"></span>
+                    <span class="estrela"></span>
+                    <span class="estrela"></span>
+                </div>
+
+                <img src="src/imagens/giselle.jpg" alt="Giselle - aespa" class="imagem-carta">
+
+                <div class="informacoes">
+                    <p class="descricao">
+                        Uma combatente ágil e versátil, capaz de atacar rapidamente e mudar o ritmo da batalha. Seus
+                        raps podem hipnotizar os inimigos ou fortalecer seus aliados.
+                    </p>
+                    <div class="informacoes-ataque">
+                        <span>ATK/ 8000</span>
+                        <span>DEF/ 7000</span>
+                    </div>
+                </div>
+            </li>
+
+            <li class="cartao fundo">
+                <div class="carta-virada mostrar-fundo-carta-2"></div>
+                <h2 class="nome">Winter</h2>
+
+                <div class="nivel-carta">
+                    <span class="estrela"></span>
+                    <span class="estrela"></span>
+                    <span class="estrela"></span>
+                    <span class="estrela"></span>
+                    <span class="estrela"></span>
+                </div>
+
+                <img src="src/imagens/winter.jpg" alt="Winter - aespa" class="imagem-carta">
+
+                <div class="informacoes">
+                    <p class="descricao">
+                        Uma maga poderosa que controla o gelo. Seus ataques podem congelar os inimigos e criar barreiras
+                        de gelo para proteger seus aliados.
+                    </p>
+                    <div class="informacoes-ataque">
+                        <span>ATK/ 6000</span>
+                        <span>DEF/ 7000</span>
+                    </div>
+                </div>
+            </li>
+
+            <li class="cartao fundo">
+                <div class="carta-virada mostrar-fundo-carta-1"></div>
+                <h2 class="nome">Karina</h2>
+
+                <div class="nivel-carta">
+                    <span class="estrela"></span>
+                    <span class="estrela"></span>
+                    <span class="estrela"></span>
+                    <span class="estrela"></span>
+                    <span class="estrela"></span>
+                </div>
+
+                <img src="src/imagens/karina.jpg" alt="Karina - aespa" class="imagem-carta">
+
+                <div class="informacoes">
+                    <p class="descricao">
+                        Uma guerreira poderosa com ataques corpo a corpo devastadores. Possui habilidades para liderar e
+                        inspirar seus aliados, além de poder canalizar a energia ae para aumentar sua força.
+                    </p>
+                    <div class="informacoes-ataque">
+                        <span>ATK/ 7000</span>
+                        <span>DEF/ 6500</span>
+                    </div>
+                </div>
+            </li>
+
+            <li class="cartao fundo">
+                <div class="carta-virada mostrar-fundo-carta-2"></div>
+                <h2 class="nome">Ningning</h2>
+
+                <div class="nivel-carta">
+                    <span class="estrela"></span>
+                    <span class="estrela"></span>
+                    <span class="estrela"></span>
+                    <span class="estrela"></span>
+                    <span class="estrela"></span>
+                </div>
+
+                <img src="src/imagens/ningning.jpeg" alt="Ningning - aespa" class="imagem-carta">
+
+                <div class="informacoes">
+                    <p class="descricao">
+                        Uma jovem maga com uma voz celestial e um coração puro. Seus poderes luminosos a permitem manipular a luz para atacar, curar e defender.
+                    </p>
+                    <div class="informacoes-ataque">
+                        <span>ATK/ 6000</span>
+                        <span>DEF/ 7000</span>
+                    </div>
+                </div>
+            </li>
+        </ul>
+
+        <button class="btn-seta btn-avancar" id="btn-avancar">
+            <img src="src/imagens/seta.png" alt="seta avançar">
+        </button>
+    </main>
+
+    <audio id="bg-musica" loop>
+        <source src="src/musicas/aespa - Whiplash.mp3" type="audio/mpeg" autoplay>
+    </audio>
+
+    <script src="src/js/secundario.js"></script>
+</body>
+
+</html>
